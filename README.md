@@ -6,6 +6,10 @@ This is the simplest possible build script setup for Serenity BDD using Java.
 This is a very minimal sample project using JUnit and Serenity BDD in Java. 
 You can use this project as a quick starting point for your own projects.
 
+
+## My Learning Objectives
+I used this starter project to learn more about Serenity BDD using Java as part of the: https://expansion.serenity-dojo.com/ course that I am going through
+
 ## Get the code
 
 Git:
@@ -32,4 +36,6 @@ Open a command window and run:
 ## Viewing the reports
 
 Both of the commands provided above will produce a Serenity test report in the `target/site/serenity` directory. Go take a look!
+
+
 
