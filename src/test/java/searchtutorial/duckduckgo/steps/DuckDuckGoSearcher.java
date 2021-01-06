@@ -1,7 +1,8 @@
 package searchtutorial.duckduckgo.steps;
 
+
 import net.thucydides.core.annotations.Step;
-import org.hamcrest.Matchers;
+
 import searchtutorial.duckduckgo.pageobjects.DuckDuckGoResultPage;
 import searchtutorial.duckduckgo.pageobjects.DuckDuckGoSearchPage;
 

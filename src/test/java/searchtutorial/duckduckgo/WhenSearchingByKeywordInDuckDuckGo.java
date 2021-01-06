@@ -15,6 +15,7 @@ public class WhenSearchingByKeywordInDuckDuckGo {
     @Test
     public void should_see_relevant_search_results() {
 
+
         lloyd.searches_by_keyword_for("Cucumber Recipes");
 
         lloyd.should_see_only_results_containing("Cucumber");
