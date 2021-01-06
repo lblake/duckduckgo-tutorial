@@ -3,6 +3,7 @@ package searchtutorial.duckduckgo.steps;
 
 import net.thucydides.core.annotations.Step;
 
+import org.hamcrest.Matchers;
 import searchtutorial.duckduckgo.pageobjects.DuckDuckGoResultPage;
 import searchtutorial.duckduckgo.pageobjects.DuckDuckGoSearchPage;
 
@@ -27,6 +28,10 @@ public class DuckDuckGoSearcher {
     public void should_see_only_results_containing(String expectedTerms) {
         List<String> results = resultPage.getDisplayedResults();
 
-        assertThat(results, everyItem(containsString(expectedTerms)));
+        assertThat(results, everyItem(Matchers.containsString(expectedTerms)));
+    }
+    @Step
+    public void is_on_the_duckduckgo_homepage() {
+        searchPage.open();
     }
 }
